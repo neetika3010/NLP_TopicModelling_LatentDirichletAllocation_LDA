@@ -37,30 +37,7 @@ Matplotlib – Topic bar plots
 
 ## Project Structure
 
-lda-topic-modelling-project/
-├── data/
-│ ├── raw/ # Original dataset (CSV, Excel, etc.)
-│ └── processed/ # Optional pre-cleaned data
-│
-├── notebooks/
-│ └── topic_modelling_eda.ipynb # EDA and experiments
-│
-├── outputs/
-│ ├── models/ # Saved LDA models
-│ ├── visualizations/ # HTML + PNG plots
-│ └── topics/ # Topic-word CSVs
-│
-├── src/
-│ ├── data_loader.py # Load dataset
-│ ├── preprocessing.py # Text preprocessing
-│ ├── model.py # LDA training logic
-│ ├── visualize.py # Plotting and pyLDAvis
-│ └── utils.py # Save/load helpers
-│
-├── main.py # Runs the pipeline
-├── requirements.txt # Dependencies
-├── setup.py # Installable package definition
-└── README.md ''' 
+<pre> ```text lda-topic-modelling-project/ ├── data/ │ ├── raw/ # Original dataset (CSV, Excel, etc.) │ └── processed/ # Optional pre-cleaned data │ ├── notebooks/ │ └── topic_modelling_eda.ipynb # EDA and experiments │ ├── outputs/ │ ├── models/ # Saved LDA models │ ├── visualizations/ # HTML + PNG plots │ └── topics/ # Topic-word CSVs │ ├── src/ │ ├── data_loader.py # Load dataset │ ├── preprocessing.py # Text preprocessing │ ├── model.py # LDA training logic │ ├── visualize.py # Plotting and pyLDAvis │ └── utils.py # Save/load helpers │ ├── main.py # Runs the pipeline ├── requirements.txt # Dependencies ├── setup.py # Installable package definition └── README.md ``` </pre>
 
 ## How to run:
 
