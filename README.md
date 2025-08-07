@@ -37,7 +37,7 @@ Matplotlib – Topic bar plots
 
 ## Project Structure
 
-''' lda-topic-modelling-project/
+lda-topic-modelling-project/
 ├── data/
 │ ├── raw/ # Original dataset (CSV, Excel, etc.)
 │ └── processed/ # Optional pre-cleaned data
@@ -65,9 +65,15 @@ Matplotlib – Topic bar plots
 ## How to run:
 
 Install Dependencies: pip install -r requirements.txt
+
 Run full pipeline: python main.py
-Output: After running the pipeline, you’ll get:
+
+Output: After running the pipeline, we will get:
+
 - outputs/models/lda_model.pkl → Saved LDA model
+
 - outputs/visualizations/lda_vis.html - Interactive topic visualization
+
 - outputs/topics/topic_keywords.csv → CSV of top words per topic
+
 - Bar plots of keywords per topic
